@@ -1,0 +1,92 @@
+name: autom
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  http: ^0.13.4
+  mqtt_client: ^9.6.6
+  uuid: ^3.0.6
+  pull_to_refresh:
+  shared_preferences: ^2.0.15
+  sqflite:
+  path_provider:
+  internet_connection_checker:
+  carousel_slider: ^4.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/appliance/ac/
+    - assets/images/appliance/air_purifier/
+    - assets/images/appliance/bulb/
+    - assets/images/appliance/ceiling_fan/
+    - assets/images/appliance/ceiling_light/
+    - assets/images/appliance/cfl/
+    - assets/images/appliance/chandelier/
+    - assets/images/appliance/charger/
+    - assets/images/appliance/chimney/
+    - assets/images/appliance/coffee_machine/
+    - assets/images/appliance/computer/
+    - assets/images/appliance/curtain/
+    - assets/images/appliance/dish_washer/
+    - assets/images/appliance/door_bell/
+    - assets/images/appliance/exhaust_fan/
+    - assets/images/appliance/fridge/
+    - assets/images/appliance/filter/
+    - assets/images/appliance/geyser/
+    - assets/images/appliance/hanging_lamp/
+    - assets/images/appliance/heater/
+    - assets/images/appliance/induction/
+    - assets/images/appliance/iron/
+    - assets/images/appliance/mixer/
+    - assets/images/appliance/oven/
+    - assets/images/appliance/printer/
+    - assets/images/appliance/pump/
+    - assets/images/appliance/radio/
+    - assets/images/appliance/router/
+    - assets/images/appliance/speakers/
+    - assets/images/appliance/switch_socket/
+    - assets/images/appliance/table_fan/
+    - assets/images/appliance/table_lamp/
+    - assets/images/appliance/television/
+    - assets/images/appliance/toaster/
+    - assets/images/appliance/tube_light/
+    - assets/images/appliance/washing_machine/
+    - assets/images/appliance/water_dispenser/
+#    rooms
+    - assets/images/room/aquarium/
+    - assets/images/room/balcony/
+    - assets/images/room/basement/
+    - assets/images/room/bath_room/
+    - assets/images/room/bed_room/
+    - assets/images/room/cubical/
+    - assets/images/room/dining_room/
+    - assets/images/room/garage/
+    - assets/images/room/garden/
+    - assets/images/room/gym/
+    - assets/images/room/kitchen/
+    - assets/images/room/library/
+    - assets/images/room/living_room/
+    - assets/images/room/office/
+    - assets/images/room/store_room/
+    - assets/images/room/study/
+    - assets/images/room/toilet/
+    - assets/images/room/utility/
+    - assets/images/room/wash_room/
+    - assets/images/logo/
